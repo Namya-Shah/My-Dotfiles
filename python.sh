@@ -13,3 +13,4 @@ pip install scikit-learn
 pip install pytorch
 pip install Scrapy3
 pip install beautifulsoup4
+pip install selenium

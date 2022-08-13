@@ -1,27 +1,28 @@
 #!/bin/zsh
 
 # Install Brew Packages
+# If you don't want to install python system-wide then delete the "brew install python" line.
 brew install python
 brew install miniconda
 brew install fig
-
+brew install tree
 
 # Install MacOS Applications
-brew cask install google-chrome
-brew cask install discord
-brew cask install todoist
-brew cask install iina
-brew cask install notion
-brew cask install visual-studio-code
-brew cask install brave-browser
-brew cask install iterm2
-brew cask install whatsapp
-brew cask install telegram
-brew cask install rectangle
-brew cask install raycast
-brew cask install fig
-brew cask install enpass
-brew cask install anydesk
+brew install --cask  google-chrome
+brew install --cask discord
+brew install --cask todoist
+brew install --cask iina
+brew install --cask notion
+brew install --cask visual-studio-code
+brew install --cask brave-browser
+brew install --cask iterm2
+brew install --cask whatsapp
+brew install --cask telegram
+brew install --cask rectangle
+brew install --cask raycast
+brew install --cask fig
+brew install --cask enpass
+brew install --cask anydesk
 
 # Install Fonts
 brew tap homebrew/cask-fonts
