@@ -3,6 +3,7 @@
 # Install Brew Packages
 brew install python
 brew install miniconda
+brew install fig
 
 
 # Install MacOS Applications
@@ -21,3 +22,8 @@ brew cask install raycast
 brew cask install fig
 brew cask install enpass
 brew cask install anydesk
+
+# Install Fonts
+brew tap homebrew/cask-fonts
+brew cask intall font-source-code-pro
+
