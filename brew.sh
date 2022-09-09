@@ -6,6 +6,10 @@ brew install python
 brew install miniconda
 brew install fig
 brew install tree
+brew install neovim
+brew install vim
+brew install mingw-w64
+brew install git
 
 # Install MacOS Applications
 brew install --cask  google-chrome
@@ -23,8 +27,13 @@ brew install --cask raycast
 brew install --cask fig
 brew install --cask enpass
 brew install --cask anydesk
+brew install --cask keka
+brew install --cask android-file-transfer
+brew install --cask android-platform-tools
+brew install --cask app-cleaner
+brew install --cask raindropio
 
 # Install Fonts
 brew tap homebrew/cask-fonts
 brew cask intall font-source-code-pro
-
+brew install --cask font-hack-nerd-font
