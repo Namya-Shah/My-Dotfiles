@@ -12,7 +12,10 @@ brew install mingw-w64
 brew install git
 
 # Install MacOS Applications
-brew install --cask  google-chrome
+brew install --cask vlc
+brew install --cask authy
+brew install --cask pdfelement
+brew install --cask google-chrome
 brew install --cask discord
 brew install --cask todoist
 brew install --cask iina
@@ -31,9 +34,10 @@ brew install --cask keka
 brew install --cask android-file-transfer
 brew install --cask android-platform-tools
 brew install --cask app-cleaner
-brew install --cask raindropio
+brew install --cask spotify
 
 # Install Fonts
 brew tap homebrew/cask-fonts
-brew cask intall font-source-code-pro
+brew intall --cask font-source-code-pro
 brew install --cask font-hack-nerd-font
+brew install --cask font-jetbrains-mono

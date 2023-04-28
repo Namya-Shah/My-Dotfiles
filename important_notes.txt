@@ -1,0 +1,2 @@
+Apps that won't be downloaded by brew
+1. Microsoft Office
