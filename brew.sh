@@ -28,7 +28,6 @@ brew install --cask telegram
 brew install --cask rectangle
 brew install --cask raycast
 brew install --cask fig
-brew install --cask enpass
 brew install --cask anydesk
 brew install --cask keka
 brew install --cask android-file-transfer
