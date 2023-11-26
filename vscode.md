@@ -1,0 +1,74 @@
+# VSCode Config
+
+- For Web Development
+  - Auto Close Tag
+  - Auto Rename Tag
+  - Autoprefixer
+  - css-auto-prefix
+  - Custom CSS and JS loader
+  - HTML Boilerplate
+  - HTML CSS Support
+  - HTML Format
+  - Live Server
+  - Live Share
+  - Rainbow CSV
+
+- For Python
+  - Python
+  - Python Indent
+  - Python Extension Pack
+  - autoDocstring
+  - Django
+  - isort
+  - Jupyter
+  - Jupyter Cell Tags
+  - Jupyter Keymap
+  - Jupyter Notebook Renderer
+  - Jupyter Slideshow
+  - MagicPython
+  - pip-packages
+  - Pylance
+
+- General
+  - Tabnine
+  - Better Align
+  - Better Comments
+  - Blackbox AI Code
+  - ChatGPT
+  - Code Runner
+  - Dev Containers
+  - Error Lens
+  - Fig
+  - Fix VSCode Checksums
+  - FontSize Shortcuts
+  - Image Preview
+  - Indent Colorizer
+  - Polacode
+  - Prettier
+  - Project Manager
+  - Random Everything
+  - Simple Readme
+  - Snippet Creator
+  - Todo Tree
+  - Toggle Quotes
+  - WSL (Only for Windows)
+
+- C/C++
+  - Better C++ Syntax
+  - C/C++
+  - C/C++ Extension Pack
+  - C/C++ Themes
+  - CMake
+  - CMake Tools
+
+- Git
+  - Git Graph
+  - Git History
+  - GitHub Codespaces
+  - GitHub Pull Requests
+  - gitignore
+  - GitLens
+
+- Personalize
+  - Modern Dark VSCode Theme
+  - Material Icon Pack Theme

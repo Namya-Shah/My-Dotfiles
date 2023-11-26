@@ -31,6 +31,8 @@ brew install --cask keka
 brew install --cask android-file-transfer
 brew install --cask android-platform-tools
 brew install --cask spotify
+brew install --cask pycharm-ce
+brew install --cask brave-browser
 
 # Install Fonts
 brew install --cask font-jetbrains-mono
