@@ -1,28 +1,39 @@
 #Python Script
 #!/bin/zsh
-pip install tensorflow
-pip install pandas
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install keras
-pip install requests
-pip install tkinter
-pip install opencv-python
-pip install scikit-learn
-pip install pytorch
-pip install Scrapy3
-pip install beautifulsoup4
-pip install selenium
-pip install pygame
-pip install pyautogui
-pip install pyttsx3
-pip install seaborn
-pip install spacy
-pip install NLTK
-pip install django
-pip install flask
-pip install kivy
-pip install pillow
-pip install pywhatkit
-pip install turtle
+
+# Installing uv: because it is fast than ordinary pip
+pip install uv
+
+# Data Science & AI libraries
+uv pip install tensorflow
+uv pip install pandas
+uv pip install numpy
+uv pip install scipy
+uv pip install matplotlib
+uv pip install keras
+uv pip install scikit-learn
+uv pip install pytorch
+uv pip install NLTK
+uv pip install seaborn
+uv pip install spacy
+
+# Misc. Libraries
+uv pip install ruff
+uv pip install mypy
+uv pip install pydantic
+uv pip install black
+uv pip install requests
+uv pip install tkinter
+uv pip install opencv-python
+uv pip install Scrapy3
+uv pip install beautifulsoup4
+uv pip install selenium
+uv pip install pygame
+uv pip install pyautogui
+uv pip install pyttsx3
+uv pip install django
+uv pip install flask
+uv pip install kivy
+uv pip install pillow
+uv pip install pywhatkit
+uv pip install turtle

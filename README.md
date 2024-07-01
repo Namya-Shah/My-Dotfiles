@@ -2,6 +2,9 @@
 
 1. To install other files other than in brew shell script then insert it
 
+# To install Arc Browser
+[Arc Browser](https://arc.net/)
+
 ### BREW FILES USING ZSH
 
 - Brew files inserted in brew.sh (but you should have installed zsh in terminal)
