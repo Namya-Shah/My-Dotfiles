@@ -33,9 +33,8 @@
 
 ### FONTS
 
-[Fonts for Code Editor](https://github.com/cancng/fonts.git)
-
+You can use install.sh to install all the fonts present in the directory
 ```bash
-cd ~/Codes
-git clone https://github.com/cancng/fonts.git
+cd Fonts/
+sh install.sh
 ```
