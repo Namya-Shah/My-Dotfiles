@@ -27,10 +27,8 @@ brew install mingw-w64
 brew install git
 
 # Install MacOS Applications
-brew install --cask vlc
 brew install --cask authy
 brew install --cask google-chrome
-brew install --cask firefox
 brew install --cask todoist
 brew install --cask discord
 brew install --cask iina
@@ -48,6 +46,10 @@ brew install --cask spotify
 brew install --cask obsidian
 brew install --cask sublime-text
 brew install --cask android-studio
+brew install --cask localsend
+brew install --cask zoom
+brew install --cask adobe-acrobat-reader
+brew install --cask github-desktop
 
 
 # Install Fonts
