@@ -4,6 +4,8 @@
 
 # To install Arc Browser
 [Arc Browser](https://arc.net/)
+[Microsoft Office](https://www.microsoft.com/en-us/microsoft-365)
+[Desk Lamp](www.desklamp.io/)
 
 ### BREW FILES USING ZSH
 
@@ -17,15 +19,40 @@
 
 - Use this script to create and activate conda environment in python (If you require a specific version of python skip to next file)
 
-### CONDA SCRIPT (SPECIFIC PYTHON SCRIPT)
-
-- Use this script to use specific python version
-- If you want to use other name for the environment created you should change py39 to (your name)
-- If you want to use different python version then change python=3.9 to python=your_required_version
-
 ### PYTHON LIBRARIES
 
 - Python libraries are inserted in python.sh file which will install all required libraries
+- Libraries Names
+  - NumPy
+  - Pandas
+  - TensorFlow
+  - SciPy
+  - Matplotlib
+  - Keras
+  - Scikit-Learn
+  - Tkinter
+  - PyTorch
+  - NLTK
+  - Seaborn
+  - Spacy
+  - Ruff
+  - MyPy
+  - Pydantic
+  - Black
+  - Requests
+  - OpenCV
+  - Scrapy
+  - Beautiful Soup
+  - Selenium
+  - Pygame
+  - Pyautogui
+  - Pyttsx3 (Text to speech)
+  - Django
+  - Flask
+  - Kivy
+  - Pillow
+  - Pywhatkit
+  - Turtle
 
 ### ZSH FILES
 
@@ -38,3 +65,20 @@ You can use install.sh to install all the fonts present in the directory
 cd Fonts/
 sh install.sh
 ```
+
+### Terminal
+- plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
+#### To install zsh-syntax-highlighting
+[ZSH SYNTAX HIGHLIGHTING](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+#### To install zsh-autosuggestions
+[ZSH-AUTOSUGGESTIONS](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+
+## Aliases to be added in `.zshrc` file
+alias g="git"
+alias gaa="git add ."
+alias ga="git add"
+alias gc="git commit"
+alias gco="git commit -m "New Notes"
+
+alias c="clear"
+alias n="nvim"

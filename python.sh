@@ -12,7 +12,8 @@ uv pip install scipy
 uv pip install matplotlib
 uv pip install keras
 uv pip install scikit-learn
-uv pip install pytorch
+uv pip install tk
+uv pip install torch
 uv pip install NLTK
 uv pip install seaborn
 uv pip install spacy
@@ -23,7 +24,6 @@ uv pip install mypy
 uv pip install pydantic
 uv pip install black
 uv pip install requests
-uv pip install tkinter
 uv pip install opencv-python
 uv pip install Scrapy3
 uv pip install beautifulsoup4

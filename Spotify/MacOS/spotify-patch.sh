@@ -1,3 +1,3 @@
-#! /bin/bash
+#! /bin/zsh
 
-curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh
+bash <(curl -sSL https://spotx-official.github.io/run.sh)
