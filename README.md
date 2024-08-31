@@ -12,13 +12,13 @@
 - Install homebrew in `PATH`
 
 ## Dock Commands
-keep smooth animation time, but remove delay:
+keep smooth animation time, but remove delay: \
 `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
 
-instantly reveal:
+instantly reveal: \
 `defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock`
 
-restore default behavior:
+restore default behavior: \
 `defaults delete com.apple.dock autohide-delay; killall Dock`
 
 ## Zsh
@@ -59,8 +59,12 @@ uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk to
 - Dark
 ### Terminal
 - Warp
+### Terminal Theme
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-## Zsh
+
+## Terminal
+### Zsh
 - Insert this line in `~/.zshrc`
 ```bash
 plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
@@ -70,7 +74,7 @@ plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 #### To install zsh-autosuggestions
 [ZSH-AUTOSUGGESTIONS](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 
-## Aliases to be added in `.zshrc` file
+### Aliases to be added in `.zshrc` file
 ```zsh
 echo "alias g='git' 
 alias gaa='git add .'
