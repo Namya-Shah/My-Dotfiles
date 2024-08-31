@@ -64,7 +64,7 @@ uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk to
 
 
 ## Terminal
-### Zsh
+### Zsh Plugins
 - Insert this line in `~/.zshrc`
 ```bash
 plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
@@ -73,6 +73,8 @@ plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 [ZSH SYNTAX HIGHLIGHTING](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 #### To install zsh-autosuggestions
 [ZSH-AUTOSUGGESTIONS](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+
+### 
 
 ### Aliases to be added in `.zshrc` file
 ```zsh
