@@ -26,7 +26,7 @@ restore default behavior:
 ## Brew Packages
 ### Formulas
 ```zsh
-brew install python miniconda tree neovim git lazygit fzf eza mysql bat ollama zoxide thefuck tldr git-lfs
+brew install python miniconda tree neovim git lazygit fzf eza mysql bat ollama zoxide thefuck tldr git-lfs jupyterlab
 ```
 ### Applications
 ```zsh
@@ -43,7 +43,7 @@ pip install uv
 ```
 ### Libraries required
 ```bash
-uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk torch NLTK seaborn spacy ruff mypy pydantic black requests opencv-python scrapy beautifulsoup4 selenium pygame pyautogui pyttsx3 django Flask kivy pillow pywhatkit turtle streamlit pyPDF2 jupyterlab jupyter
+uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk torch NLTK seaborn spacy ruff mypy pydantic black requests opencv-python scrapy beautifulsoup4 selenium pygame pyautogui pyttsx3 django Flask kivy pillow pywhatkit turtle streamlit pyPDF2
 ```
 
 
@@ -55,13 +55,11 @@ uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk to
 - MesloLGS NF
 ### Theme (VS Code)
 - Dark Modern
-### Theme (PyCharm)
-- Dark
 ### Terminal
 - Warp
 
 ## Zsh
-- Insert this line in `~/.zshrc`
+- Insert this line in `~/.zshrc` \
 ```bash
 plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 ```

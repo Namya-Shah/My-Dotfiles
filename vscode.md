@@ -1,18 +1,4 @@
 # VSCode Config
-
-- For Web Development
-  - Auto Close Tag
-  - Auto Rename Tag
-  - Autoprefixer
-  - css-auto-prefix
-  - Custom CSS and JS loader
-  - HTML Boilerplate
-  - HTML CSS Support
-  - HTML Format
-  - Live Server
-  - Live Share
-  - Rainbow CSV
-
 - For Python
   - Python
   - Python Indent
@@ -42,8 +28,7 @@
   - Fix VSCode Checksums
   - FontSize Shortcuts
   - Image Preview
-  - Indent Colorizer
-  - Polacode
+  - Polacode 2022
   - Prettier
   - Project Manager
   - Random Everything
@@ -51,15 +36,6 @@
   - Snippet Creator
   - Todo Tree
   - Toggle Quotes
-  - WSL (Only for Windows)
-
-- C/C++
-  - Better C++ Syntax
-  - C/C++
-  - C/C++ Extension Pack
-  - C/C++ Themes
-  - CMake
-  - CMake Tools
 
 - Git
   - Git Graph
@@ -71,4 +47,4 @@
 
 - Personalize
   - Modern Dark VSCode Theme
-  - Material Icon Pack Theme
+  - Feather Icon Pack Theme

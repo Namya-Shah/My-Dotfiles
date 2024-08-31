@@ -24,7 +24,6 @@ conda activate
 conda install python
 
 # Install MacOS Applications
-brew install --cask authy
 brew install --cask google-chrome
 brew install --cask syncthing
 brew install --cask discord
