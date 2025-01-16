@@ -1,6 +1,6 @@
 # MY DOTFILES
 
-## Required Apps
+## Required Apps (Not available in Homebrew)
 [Arc Browser](https://arc.net/) \
 [Microsoft Office](https://www.microsoft.com/en-us/microsoft-365)
 
@@ -26,24 +26,21 @@ restore default behavior: \
 ## Brew Packages
 ### Formulas
 ```zsh
-brew install python miniconda tree neovim git lazygit fzf eza mysql bat ollama zoxide thefuck tldr git-lfs
+xargs brew install < formulas.txt
 ```
+
 ### Applications
 ```zsh
-brew install --cask adobe-acrobat-reader android-file-transfer android-platform-tools anydesk applite brave-browser chatgpt discord ente-auth iina keka linearmouse localsend mysqlworkbench notion numi obsidian alienator88/homebrew-cask/pearcleaner proton-pass raycast rectangle spotify telegram-desktop todoist visual-studio-code warp zed zoom pycharm
+xargs brew install --cask < apps.txt
 ```
 
 ## Conda Setup
 - Use `conda init` to initialize conda
 
 ## Python Development
-### Installing uv library (based on rust)
-```bash
-pip install uv
-```
 ### Libraries required
-```bash
-uv pip install numpy pandas tensorflow scipy matplotlib keras scikit-learn tk torch NLTK seaborn spacy ruff mypy pydantic black requests opencv-python scrapy beautifulsoup4 selenium pygame pyautogui pyttsx3 django Flask kivy pillow pywhatkit turtle streamlit pyPDF2 jupyterlab jupyter
+```zsh
+xargs pip install < libraries.txt
 ```
 
 
@@ -74,7 +71,15 @@ plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 #### To install zsh-autosuggestions
 [ZSH-AUTOSUGGESTIONS](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 
-### 
+## VS Code Extensions
+1. Python Extension Pack
+2. Code Runner
+3. Jupyter
+4. Jupyter Cell Tags
+5. Pylance
+6. Path Intellisense
+7. Python
+8. Rainbow CSV
 
 ### Aliases to be added in `.zshrc` file
 ```zsh

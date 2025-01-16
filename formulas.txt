@@ -1,0 +1,17 @@
+python
+miniconda
+tree
+neovim
+git
+lazygit
+fzf
+eza
+mysql
+bat
+ollama
+zoxide
+thefuck
+tldr
+git-lfs
+uv
+ruff
