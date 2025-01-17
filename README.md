@@ -15,9 +15,6 @@
 keep smooth animation time, but remove delay: \
 `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
 
-instantly reveal: \
-`defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock`
-
 restore default behavior: \
 `defaults delete com.apple.dock autohide-delay; killall Dock`
 
@@ -43,6 +40,16 @@ xargs brew install --cask < apps.txt
 xargs pip install < libraries.txt
 ```
 
+## Config files
+### Neovim
+```zsh
+cp nvim ~/.config/
+```
+
+### Tmux
+```zsh
+cp tmux ~/.config/
+```
 
 ## Development
 ### IDE
@@ -88,6 +95,8 @@ alias gaa='git add .'
 alias ga='git add'
 alias gc='git commit'
 alias gco='git commit -m 'New Notes''
+alias gst='git status'
+alias lg='lazygit'
 alias c='clear'
 alias n='nvim'
 alias bu='brew upgrade'
