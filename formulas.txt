@@ -15,3 +15,4 @@ tldr
 git-lfs
 uv
 ruff
+zsh-autosuggestions

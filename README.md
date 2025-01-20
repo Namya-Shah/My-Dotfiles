@@ -68,6 +68,12 @@ cp tmux ~/.config/
 
 
 ## Terminal
+
+### Oh My Zsh
+```zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### Zsh Plugins
 - Insert this line in `~/.zshrc`
 ```bash
