@@ -13,10 +13,14 @@
 
 ## Dock Commands
 keep smooth animation time, but remove delay: \
-`defaults write com.apple.dock autohide-delay -float 0; killall Dock`
+```bash
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+```
 
 restore default behavior: \
-`defaults delete com.apple.dock autohide-delay; killall Dock`
+```bash
+defaults delete com.apple.dock autohide-delay; killall Dock
+```
 
 ## Zsh
 
@@ -30,6 +34,12 @@ xargs brew install < formulas.txt
 ```zsh
 xargs brew install --cask < apps.txt
 ```
+
+## Obsidian Setup
+**Theme:** Ayu Light & Mirage (Link for theme)[https://github.com/taronull/ayu-obsidian]
+**Font:** 
+- IBM Plex Mono (Text Font) [Link](https://fonts.google.com/specimen/IBM+Plex+Mono)
+- Jetbrains Mono (Code Font) [Link](https://www.jetbrains.com/lp/mono/)
 
 ## Conda Setup
 - Use `conda init` to initialize conda
@@ -56,9 +66,9 @@ cp tmux ~/.config/
 1. Visual Studio Code
 2. PyCharm
 ### Font
-- MesloLGS NF
+- Jetbrains Mono & IBM Plex Mono
 ### Theme (VS Code)
-- Dark Modern
+- Ayu Dark
 ### Theme (PyCharm)
 - Dark
 ### Terminal
@@ -84,7 +94,8 @@ plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 #### To install zsh-autosuggestions
 [ZSH-AUTOSUGGESTIONS](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 
-## VS Code Extensions
+## VS Code Setup
+### VS Code Extensions
 1. Python Extension Pack
 2. Code Runner
 3. Jupyter
@@ -93,6 +104,21 @@ plugins = (git zsh-syntax-highlighting zsh-autosuggestions)
 6. Path Intellisense
 7. Python
 8. Rainbow CSV
+9. Custom CSS & JS Loader
+10. Fix VSCode Checksums
+
+### Custom CSS Load
+- Copy the below command into terminal
+```zsh
+cp ~/Developer/My-Dotfiles/styles.css ~/Desktop/styles.css
+```
+
+- Copy the below code into `settings.json`
+```json
+"vscode_custom_css.imports": [
+        "file:///~/Desktop/styles.css"
+    ]
+```
 
 ### Aliases to be added in `.zshrc` file
 ```zsh
@@ -107,5 +133,6 @@ alias c='clear'
 alias n='nvim'
 alias bu='brew upgrade'
 alias s='source'
+alias z='zoxide'
 " >> ~/.zshrc
 ```

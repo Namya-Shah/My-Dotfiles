@@ -4,6 +4,7 @@ tree
 neovim
 git
 lazygit
+lazydocker
 fzf
 eza
 mysql
