@@ -1,7 +1,7 @@
 # MY DOTFILES
 
 ## Required Apps (Not available in Homebrew)
-[Arc Browser](https://arc.net/) \
+[GitHub Desktop](https://desktop.github.com/download/) \
 [Microsoft Office](https://www.microsoft.com/en-us/microsoft-365)
 
 ## Installing Homebrew

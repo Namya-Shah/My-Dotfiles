@@ -16,7 +16,6 @@ anydesk
 iina
 rstudio
 zoom
-applite
 mysqlworkbench
 notion
 brave-browser
@@ -29,3 +28,4 @@ obsidian
 latest
 todoist
 miniconda
+jordanbird-ice
