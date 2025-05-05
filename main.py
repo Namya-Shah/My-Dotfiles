@@ -83,7 +83,7 @@ with col3:
 if st.button("Install selected formulas"):
     for formula, checked in formula_selections.items():
         if checked:
-            subprocess.Popen(brew_prefix+formula, shell=True, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+            subprocess.run(brew_prefix+formula, shell=True, capture_output=True, text=True)
             st.write(f"✅ {formula} formula installed!")
 
 # initializing conda
