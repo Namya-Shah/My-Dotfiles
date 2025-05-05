@@ -1,4 +1,4 @@
-adobe-acrobat-reader
+thorium
 discord
 linearmouse
 visual-studio-code
@@ -33,4 +33,4 @@ monitorcontrol
 latest
 todoist
 miniconda
-jordanbird-ice
+clop
