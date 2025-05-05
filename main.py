@@ -28,7 +28,7 @@ else:
 
     if selected_homebrew:
         with st.spinner("Installing homebrew...", show_time=True):
-            homebrew_process = subprocess.Popen(homebrew_command,shell=True, capture_output=True, text=True, stderr=subprocess.STDOUT, stdout = subprocess.PIPE)
+            homebrew_process = subprocess.run(homebrew_command,shell=True, capture_output=True, text=True)
             if homebrew_process.stderr:
                 st.error("There is an error installing Homebrew")
                 st.text(homebrew_process.stderr)
@@ -85,6 +85,11 @@ if st.button("Install selected formulas"):
         if checked:
             subprocess.Popen(brew_prefix+formula, shell=True, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
             st.write(f"✅ {formula} formula installed!")
+
+# initializing conda
+if formula_selections["Miniconda"] is True:
+    subprocess.run("conda init")
+
 # Applications
 st.header("Applications")
 column1, column2, column3 = st.columns(3)
