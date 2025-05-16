@@ -1,0 +1,89 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "serialNumber" : "10:22:33:45:7F:0A",
+          "vendorID" : "0x46d",
+          "productName" : "Toad III",
+          "productID" : "0xb016",
+          "category" : "mouse"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true,
+        "clickDebouncing" : {
+          "timeout" : 0
+        },
+        "mappings" : [
+          {
+            "shift" : false,
+            "button" : 2,
+            "command" : false,
+            "option" : false,
+            "action" : "auto",
+            "control" : false
+          }
+        ],
+        "switchPrimaryButtonAndSecondaryButtons" : false
+      },
+      "pointer" : {
+        "acceleration" : 2,
+        "speed" : 0.17
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 2.75
+        },
+        "speed" : {
+          "vertical" : 9.7
+        },
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.brave.Browser",
+        "device" : {
+          "productID" : "0xb016",
+          "productName" : "Toad III",
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "serialNumber" : "10:22:33:45:7F:0A"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 2.75
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "org.chromium.Thorium",
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xb016",
+          "productName" : "Toad III",
+          "serialNumber" : "10:22:33:45:7F:0A",
+          "category" : "mouse"
+        }
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "control" : false,
+            "action" : "mouse.button.middle",
+            "button" : 2,
+            "command" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ]
+      }
+    }
+  ]
+}
