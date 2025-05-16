@@ -1,5 +1,4 @@
 # command-line utilities
-
 brew "python"
 brew "miniconda"
 brew "tree"
