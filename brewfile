@@ -18,47 +18,64 @@ brew "git-lfs"
 brew "uv"
 brew "ruff"
 brew "fastfetch"
+brew "tmux"
+brew "btop"
+brew "htop"
 
 # Applications
+
+# Social
 cask "discord"
+cask "whatsapp"
+cask "zoom"
+cask "slack"
+cask "telegram-desktop"
+cask "obs"
+
+# Tools/Utilities
 cask "linearmouse"
-cask "visual-studio-code"
-cask "pycharm-ce"
 cask "android-file-transfer"
 cask "android-platform-tools"
 cask "ente-auth"
-cask "localsend"
 cask "proton-pass"
-cask "blip"
-cask "warp"
 cask "maccy"
 cask "raycast"
 cask "rectangle"
-cask "whatsapp"
 cask "anydesk"
-cask "iina"
-cask "rstudio"
-cask "zoom"
-cask "slack"
-cask "mysqlworkbench"
-cask "notion"
-cask "brave-browser"
-cask "google-chrome"
-cask "firefox"
 cask "keka"
-cask "telegram-desktop"
-cask "chatgpt"
-cask "claude"
 cask "monitorcontrol"
-cask "todoist"
-cask "miniconda"
 cask "clop"
-cask "github"
-cask "cursor"
-cask "docker"
-cask "obs"
 cask "hiddenbar"
 cask "appcleaner"
 cask "mac-mouse-fix"
-cask "obsidian"
-cask "orion"
+
+# Development
+cask "visual-studio-code"
+cask "pycharm-ce"
+cask "warp"
+cask "rstudio"
+cask "mysqlworkbench"
+cask "miniconda"
+cask "github"
+cask "cursor"
+cask "docker"
+
+# Sharing
+cask "localsend"
+cask "blip"
+
+# Entertainment
+cask "iina"
+
+# Education
+cask "notion"
+cask "todoist"
+
+# Browsers
+cask "brave-browser"
+cask "google-chrome"
+cask "firefox"
+
+# GPTs
+cask "chatgpt"
+cask "claude"
