@@ -48,6 +48,7 @@ cask "clop"
 cask "hiddenbar"
 cask "appcleaner"
 cask "mac-mouse-fix"
+cask "shottr"
 
 # Development
 cask "visual-studio-code"
