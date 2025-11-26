@@ -1,5 +1,11 @@
 # MY DOTFILES
 
+## Macos bluetooth restart command
+Command:
+```bash
+sudo pkill bluetoothd
+```
+
 ## Start with `install.sh` file
 Command: 
 ```bash
